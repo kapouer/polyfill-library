@@ -6,16 +6,16 @@ index 8c3269e3..5c302559 100644
 
    fetch.polyfill = true;
 
--  if (!global.fetch) {
--    global.fetch = fetch;
--    global.Headers = Headers;
--    global.Request = Request;
--    global.Response = Response;
+-  if (!g.fetch) {
+-    g.fetch = fetch;
+-    g.Headers = Headers;
+-    g.Request = Request;
+-    g.Response = Response;
 -  }
-+  global.fetch = fetch;
-+  global.Headers = Headers;
-+  global.Request = Request;
-+  global.Response = Response;
++  g.fetch = fetch;
++  g.Headers = Headers;
++  g.Request = Request;
++  g.Response = Response;
 
    exports.Headers = Headers;
    exports.Request = Request;
