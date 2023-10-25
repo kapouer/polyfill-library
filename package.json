@@ -1,9 +1,14 @@
 {
-  "name": "polyfill-library",
+  "name": "@kapouer/polyfill-library",
   "version": "4.8.0",
   "description": "A polyfill combinator",
   "main": "lib/index.js",
   "contributors": [
+    {
+       "name": "Jérémy Lal",
+       "email": "kapouer@melix.org",
+       "url": "https://github.com/kapouer"
+    },
     {
       "name": "Jonathan Neal",
       "email": "jonathantneal+github@gmail.com",
